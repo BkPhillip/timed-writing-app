@@ -6,6 +6,7 @@ FONT = ("Purisa", 18)
 
 HIGHLIGHT_COLORS = ["#980000", "#ff0000", "#ff9900", "#ffff00", "#00ff00"]
 
+
 class App:
     def __init__(self):
         self.window = Tk()
