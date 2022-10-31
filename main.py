@@ -3,10 +3,11 @@ Timed Writing App
 Bryson Phillip
 October 30, 2022
 
-A writing app with both a timer and a short interval timer to end the session if no keys are pressed before it reaches
-zero. Then either timer reaches zero, the word count and total time spent writing are displayed. The user has the option
-to reset the writing pad or export their writing to file. This app is designed to help users not overthink when writing.
-Good for stream of conscious writing.
+A writing app with both a session timer and a short 1 to 10 seconds "interval" timer that ends the session if the user
+hasn't written anything before it reaches zero. When either timer reaches zero, the word count and total time spent
+writing are displayed. The user has the option to reset the writing pad or export their writing to file.
+This app is designed to help users not overthink when writing. Good for stream of conscious writing.
+
 
 """
 from tkinter import *
